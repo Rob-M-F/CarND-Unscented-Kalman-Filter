@@ -1,0 +1,16 @@
+tools.cpp
+  Tools::CalculateRMSE:
+	* Calculate RMSE (copy from Extended Kalman project)
+ukf.cpp
+  UKF::UKF:
+    * Complete initialization in constructor
+  UKF::ProcessMeasurement:
+    * Complete function for LIDAR and RADAR
+  UKF::Prediction:
+    * Complete object estimation function.
+  UKF::UpdateLidar:
+    * Use LIDAR data to update belief about object location.
+	* Calculate LIDAR NIS.
+  UKF::UpdateRadar:
+    * Use RADAR data to update belief about object location.
+	* Calculate RADAR NIS.
